@@ -15,7 +15,7 @@ A Python program for a command-line task management system. Users will be able t
     - Save tasks to a file.
     - Load tasks from a file.
     - Quit the program.
-(The menu is in the same order)
+    - (The menu is in the same order in the program)
 3. Error handling has been taken care to handle invalid input and missing tasks gracefully.
 4. The data structures for task storage is lists.
 
