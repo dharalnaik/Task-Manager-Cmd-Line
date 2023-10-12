@@ -32,8 +32,7 @@ def main():
             task_manager.delete_task(task_index)
         elif choice == "5":
             file_name = input("Enter filename(path): ")
-            task_index = int(input("Enter task number: "))
-            task_manager.load_tasks_from_otherfile(file_name, task_index)
+            task_manager.load_tasks_from_otherfile(file_name)
         elif choice == "6":
             task_manager.save_tasks_to_file("task_data.txt")
             print("Tasks saved.")

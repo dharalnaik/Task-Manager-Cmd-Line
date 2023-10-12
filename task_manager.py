@@ -42,11 +42,10 @@ class TaskManager:
         except Exception as e:
             print("Error loading tasks:", e)
 
-    def load_tasks_from_otherfile(self, file_name, task_index):
+    def load_tasks_from_otherfile(self, file_name):
         try:
             with open(file_name, 'r') as file_name:
                 for line in file_name:
-                        print(line)
                         name, description, completed = line.strip().split("::")
                         task = Task(name, description)
                         task.completed = (completed.lower() == "true")
