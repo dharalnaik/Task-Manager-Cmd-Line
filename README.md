@@ -1,7 +1,7 @@
 # Task-Manager-Cmd-Line
 A task management command line software created with python.
-**Description:**
 
+**Description:**
 A Python program for a command-line task management system. Users will be able to perform various operations on tasks, including adding new tasks, displaying them, marking them as completed, deleting tasks, saving tasks to a file, and loading tasks from a file.
 
 **Requirements:**
