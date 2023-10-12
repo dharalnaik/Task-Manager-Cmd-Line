@@ -18,3 +18,9 @@ A Python program for a command-line task management system. Users will be able t
     (The menu is in the same order)
 3. Error handling has been taken care to handle invalid input and missing tasks gracefully.
 4. The data structures for task storage is lists.
+
+**Things to note:**
+1. program.py is the main file for the source code of the program.
+2. task_manager.py is the supporting file with all user-defined functions for different tasks to perform.
+3. task_data.txt is the main text file on which different operations are performed.
+4. file1.txt is the supporting file from which the tasks will be loaded to the main text file- task_data.txt .
