@@ -24,5 +24,9 @@ A Python program for a command-line task management system. Users will be able t
 1. "program.py" is the main file for the source code of the program.
 2. "task_manager.py" and "task.py" is the supporting file with all user-defined functions for different tasks to perform.
 3. "task_data.txt" is the main text file on which different operations are performed.
-4. "file1.txt" is the supporting file from which the tasks will be loaded to the main text file- task_data.txt .
-5. Both the files "task_data.txt" & "file1.txt" must be in the same folders.
+4. "file1.txt" is the supporting text file from which the tasks will be loaded to the main text file "task_data.txt".
+5. For loading tasks from a supporting text file "file1.txt" either copy and paste the file path or just enter the file name if both the files are in same folders.
+6. Also, after loading the tasks, please note to use the SAVE option(from the menu Choice-6), otherwise the tasks loaded won't be saved in the main text file "task_data.txt".
+
+**Thank you!**
+
